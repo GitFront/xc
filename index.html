@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>携程旅行</title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+<header>
+    <div id="focus" class="focus">
+        <div class="hd">
+            <ul></ul>
+        </div>
+        <div class="bd">
+            <ul>
+                <li><a href="#"><img _src="images/1.jpg" src="images/1.jpg" /></a></li>
+                <li><a href="#"><img _src="images/2.jpg" src="images/2.jpg"/></a></li>
+                <li><a href="#"><img _src="images/3.jpg" src="images/3.jpg"/></a></li>
+                <li><a href="#"><img _src="images/4.jpg" src="images/4.jpg"/></a></li>
+                <li><a href="#"><img _src="images/5.jpg" src="images/5.jpg"/></a></li>
+                <li><a href="#"><img _src="images/6.jpg" src="images/6.jpg"/></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="nav">
+    <div class="nav-items">
+        <div class="nav-items-title">酒店
+        </div>
+        <div class="nav-items-content">
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+        </div>
+    </div> <div class="nav-items">
+        <div class="nav-items-title">酒店
+        </div>
+        <div class="nav-items-content">
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+        </div>
+    </div> <div class="nav-items">
+        <div class="nav-items-title">酒店
+        </div>
+        <div class="nav-items-content">
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+        </div>
+    </div> <div class="nav-items">
+        <div class="nav-items-content">
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+            <a href="">海外酒店</a>
+        </div>
+    </div>
+</div>
+<div class="xc-product">
+    <a href=""><img src="images/extra_1.png" alt=""/></a>
+    <a href=""><img src="images/extra_2.png" alt=""/></a>
+</div>
+<footer>
+    <ul>
+        <li><a href="#">电话预定</a></li>
+        <li><a href="#">下载客户端</a></li>
+        <li><a href="#">我的</a></li>
+    </ul>
+    <p>网站地图 | <a href="#">ENGLISH </a>| <a href="#">电脑版</a></p>
+    <p><a href="#"> ©2015 携程旅行</a></p>
+</footer>
+</body>
+</html>
+<script src="js/TouchSlide.1.1.js"></script>
+<script type="text/javascript">
+    TouchSlide({
+        slideCell: "#focus",
+        titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+        mainCell: ".bd ul",
+        effect: "leftLoop",
+        autoPlay: true,//自动播放
+        autoPage: true, //自动分页
+        switchLoad: "_src", //切换加载，真实图片路径为"_src"
+        delayTime:500,
+        interTime:5000,
+    });
+
+</script>
